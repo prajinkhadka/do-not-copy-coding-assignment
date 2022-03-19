@@ -4,15 +4,19 @@ from change_code import no_of_func, change_func_name, change_function_dec
 data = make_ast("""
 def sort():
     print("this is a sorting fucntion")
+    return "sorted array"
     
 def search():
     print("this is a search fucntion")
-    
+    return "key found"
+
 def binary_search():
     print("this is a search fucntion")
+    return "key found"
     
 def linear_search():
-    print("this is a leareraefasdfhdsfhuh search fucntion")
+    print("this is a linear search fucntion")
+    return "key Found"
     
 s = sort() 
 s1 = sort()
